@@ -12,7 +12,7 @@ jobs:
       AWS_DEFAULT_REGION: us-east-1
       
   steps:
-  - name: Terraform setup
+  - name: Terraform Setup
     uses: hashicorp/setup-terraform@v3
 
   - name: Terraform Initialize
