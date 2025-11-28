@@ -1,7 +1,7 @@
 name: Perform Github Actions
 on:
  push:
-  branches: ["master"]
+  branches: ["main"]
 jobs:
  terraform:
   runs-on: ubuntu-latest
